@@ -1,7 +1,3 @@
-Claro! Aqui está um exemplo de README básico e direto para o seu projeto de chat:
-
----
-
 # Chat Simples com Socket.io e MongoDB
 
 Este é um projeto simples de chat em tempo real utilizando **Socket.io** para comunicação em tempo real e **MongoDB** para armazenar as mensagens enviadas. O sistema possui dois chats independentes, cada um com um campo de mensagem e um botão para enviar.
