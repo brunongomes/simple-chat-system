@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Simples</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+  <div id="chat-container">
+    <div class="chat-box">
+      <h3>Chat 1</h3>
+      <div id="messages-1"></div>
+      <div id="input-container-1">
+        <input type="text" id="message-input-1" placeholder="Digite sua mensagem...">
+        <button onclick="sendMessage('1')">Enviar</button>
+      </div>
+    </div>
+    <div class="chat-box">
+      <h3>Chat 2</h3>
+      <div id="messages-2"></div>
+      <div id="input-container-2">
+        <input type="text" id="message-input-2" placeholder="Digite sua mensagem...">
+        <button onclick="sendMessage('2')">Enviar</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
